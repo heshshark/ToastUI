@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ToastUI</string>
+
+    <!-- Strings for MainActivity -->
+
+    <string name="setting_icon_size">设置图标大小</string>
+    <string name="setting_text_size">字体大小</string>
+    
+    <string name="setting_toast_transparence">吐司透明度</string>
+
+    <string name="setting_default_value">默认</string>
+
+    <string name="press_color_to_apply">点击颜色以应用</string>
+
+    <string name="dialog_color_picker">颜色选择器</string>
+
+    <string name="toast_font_color">字体颜色</string>
+
+    <string name="toast_font_color_summary">设置吐司消息字体颜色</string>
+
+
+    <string name="about">关于</string>
+    <string name="developed_by_hesh">Developed by Hesh\nlifing@coolapk</string>
+
+
+
+    <!-- Strings for fragments/SuperToastFragment -->
+    <string name="enable_title">格式化开关</string>
+    <string name="duration_subtitle">显示时长</string>
+
+    <string name="frame_subtitle">吐司风格</string>
+
+    <string name="animation_subtitle">显示动画</string>
+    <string name="color_title">背景颜色</string>
+
+    <string name="font_size_subtitle">字体大小</string>
+    <string name="font_size_summary">设置消息字体大小</string>
+
+    <string name="icon_size_subtitle">图标大小</string>
+    <string name="color_subtitle">背景颜色</string>
+
+
+    <!-- Strings for resource files -->
+    <string name="application_icon">应用图标</string>
+    <string name="licensed_under_the_apache_license_version_2_0">Licensed under the Apache License, Version 2.0</string>
+    <string name="view_project_source">VIEW PROJECT SOURCE</string>
+    <string name="version">模块版本 1.0</string>
+    <string name="color_summary">设置吐司默认背景颜色</string>
+    <string name="duration_summary">自定义吐司显示时长</string>
+    <string name="frame_summary">设置吐司显示风格</string>
+    <string name="icon_size_summary">设置应用图标大小</string>
+    <string name="moudle_setting">模块设置</string>
+    <string name="enable_icon">显示应用图标</string>
+    <string name="toast_transparence_summary">设置吐司背景透明度</string>
+    <string name="animation_summary">设置吐司显示与消失的动画</string>
+    <string name="version_title">版本</string>
+    <string name="developed">开发者</string>
+    <string name="click_exit">再按一次以退出</string>
+    <string name="viewsource">查看源码</string>
+</resources>

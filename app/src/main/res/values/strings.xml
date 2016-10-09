@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ToastUI</string>
+
+    <!-- Strings for MainActivity -->
+
+    <string name="setting_icon_size">Set Icon SIze</string>
+    <string name="setting_text_size">Text Size</string>
+    
+    <string name="setting_toast_transparence">Toast Transparence</string>
+
+    <string name="setting_default_value">Default</string>
+
+    <string name="press_color_to_apply">Press On Color to apply</string>
+
+    <string name="dialog_color_picker">Color Picker</string>
+
+    <string name="toast_font_color">Toast TextColor</string>
+
+    <string name="toast_font_color_summary">Change The Toast TextColor</string>
+
+    <string name="about">About</string>
+    <string name="developed_by_hesh">Developed by Hesh\nlifing@coolapk</string>
+
+
+    <!-- Strings for fragments/SuperToastFragment -->
+    <string name="enable_title">Enable Module</string>
+    <string name="duration_subtitle">Display duration</string>
+    <string name="duration_summary">Set the duration that the SuperToast is displayed for</string>
+    <string name="frame_subtitle">Background Frame</string>
+    <string name="frame_summary">Set the background frame of the Toast</string>
+    <string name="animation_subtitle">Display animations</string>
+    <string name="animation_summary">Set the animations that the Toast uses to display and hide.</string>
+    <string name="color_title">Color</string>
+
+    <string name="font_size_subtitle">Text Size</string>
+    <string name="font_size_summary">Set the Text font size</string>
+    <string name="icon_size_subtitle">Icon Size</string>
+    <string name="icon_size_summary">Set the application icon size</string>
+    <string name="color_subtitle">Background color</string>
+    <string name="color_summary">Set the color of the Toast\'s background.</string>
+
+    <!-- Strings for resource files -->
+    <string name="application_icon">Application icon</string>
+    <string name="licensed_under_the_apache_license_version_2_0">Licensed under the Apache License, Version 2.0</string>
+    <string name="view_project_source">VIEW PROJECT SOURCE</string>
+    <string name="version">Moudle Version 1.0</string>
+
+    <string name="moudle_setting" >Moudle Setting</string>
+    <string name="enable_icon">Enable Application Icon</string>
+    <string name="toast_transparence_summary">Set Toast Transparence</string>
+    <string name="version_title">Version</string>
+    <string name="developed">Develeper</string>
+    <string name="viewsource">View SourceCode</string>
+    <string name="click_exit">Press again to exit</string>
+
+</resources>

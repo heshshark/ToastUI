@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <!-- General application colors -->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#009688</color>
+
+    <!-- Specific application colors -->
+    <color name="text_active">#ECEFF1</color>
+    <color name="text_inactive">#BDBDBD</color>
+    <color name="tab_background">#44FFFFFF</color>
+    <color name="activity_background">#EEEEEE</color>
+
+    <color name="default_text_color">#FFFFFFFF</color>
+
+    <color name="default_backgroud_color">#FFF44336</color>
+
+</resources>

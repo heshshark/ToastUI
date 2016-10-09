@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="frame_lolipop">棒棒糖</string>
+    <string name="frame_standard">标准</string>
+    <string name="frame_kitkat">奇巧</string>
+    <string name="animation_fly">飞入</string>
+    <string name="animation_fade">淡出</string>
+    <string name="animation_scale">收缩</string>
+    <string name="animation_pop">弹出</string>
+    <string-array name="frame_constants_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="animation_constants_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

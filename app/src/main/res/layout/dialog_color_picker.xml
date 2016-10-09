@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="5.0dip"
+    android:paddingRight="5.0dip">
+
+    <net.margaritov.preference.colorpicker.ColorPickerView
+        android:id="@+id/color_picker_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layerType="software"
+        android:tag="portrait" />
+
+    <LinearLayout
+        android:id="@+id/text_hex_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="6.0dip"
+        android:layout_marginRight="6.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/press_color_to_apply"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/hex_val"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="HEX"
+            android:imeOptions="actionDone"
+            android:inputType="textCapCharacters"
+            android:maxLength="7"
+            android:visibility="gone"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:orientation="horizontal">
+
+        <net.margaritov.preference.colorpicker.ColorPickerPanelView
+            android:id="@+id/old_color_panel"
+            android:layout_width="0.0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:gravity="center"
+            android:text="→"
+            android:textSize="20.0sp" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPanelView
+            android:id="@+id/new_color_panel"
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

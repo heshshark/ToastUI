@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="enable_toast"
+        android:title="@string/enable_title" />
+
+    <PreferenceCategory
+        android:dependency="enable_toast"
+        android:title="@string/moudle_setting">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_icon"
+            android:title="@string/enable_icon" />
+
+        <ce.hesh.ToastUI.views.AppIconSize
+            android:defaultValue="2"
+            android:dependency="enable_icon"
+            android:dialogMessage="@string/icon_size_subtitle"
+            android:dialogTitle="@string/icon_size_subtitle"
+            android:key="app_icon_size"
+            android:persistent="false"
+            android:summary="@string/icon_size_summary"
+            android:title="@string/icon_size_subtitle" />
+
+        <ce.hesh.ToastUI.views.MessageTextSize
+            android:defaultValue="2"
+            android:dialogTitle="@string/setting_text_size"
+            android:key="text_size_key"
+            android:persistent="false"
+            android:summary="@string/font_size_summary"
+            android:title="@string/setting_text_size" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            hexValue="true"
+            android:defaultValue="@color/default_backgroud_color"
+            android:key="background_color"
+            android:summary="@string/color_summary"
+            android:title="@string/color_subtitle" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            hexValue="true"
+            android:defaultValue="@color/default_text_color"
+            android:key="font_color"
+            android:summary="@string/toast_font_color_summary"
+            android:title="@string/toast_font_color" />
+
+        <ce.hesh.ToastUI.views.ToastTransparency
+            android:defaultValue="2"
+            android:dependency="enable_icon"
+            android:dialogMessage="@string/icon_size_subtitle"
+            android:dialogTitle="@string/setting_toast_transparence"
+            android:key="app_icon_size"
+            android:persistent="false"
+            android:summary="@string/toast_transparence_summary"
+            android:title="@string/setting_toast_transparence" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="Toast风格"
+            android:entries="@array/frame_constants"
+            android:entryValues="@array/frame_constants_value"
+            android:key="style_key"
+            android:summary="@string/frame_summary"
+            android:title="@string/frame_subtitle" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/animation_subtitle"
+            android:entries="@array/animation_constants"
+            android:entryValues="@array/animation_constants_value"
+            android:key="animation_key"
+            android:summary="@string/animation_summary"
+            android:title="@string/animation_subtitle" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/about">
+
+        <Preference
+            android:title="@string/version_title"
+            android:summary="@string/version"/>
+        <Preference
+            android:title="@string/developed"
+            android:summary="@string/developed_by_hesh"/>
+        <Preference
+            android:key="viewsource"
+            android:title="@string/viewsource"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
